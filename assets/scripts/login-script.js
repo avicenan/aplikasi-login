@@ -10,7 +10,7 @@ const inputEmailElement = document.querySelector("#inputEmail");
 const inputPasswordElement = document.querySelector("#inputPassword");
 
 const expectedEmail = "admin@dicoding.com";
-const expectedPassword = "superpassword";
+const expectedPassword = "superpass";
 
 loginFormElement.addEventListener("submit", function (event) {
   event.preventDefault();
